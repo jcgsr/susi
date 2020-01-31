@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap');
+
+/*TAGS*/
+body{
+ font-family: 'Berkshire Swash', cursive;
+ background: linear-gradient(35deg, purple, rgb(65, 15, 65), white);
+ text-align: center;
+ color: white;
+ margin: 0;
+ 
+}
+h1{
+    text-shadow: 2px 2px 3px rgb(62, 65, 29);
+    margin-top: 8%;
+}
+h3{
+    height: 30px;
+    width: 80px;
+    background: linear-gradient(35deg, purple, rgb(65, 15, 65), white);
+    border-radius: 10px;
+    border-style: double;
+    border-width: 5px;
+    border-color: rgb(221, 224, 215);
+    margin: auto;
+    font-size: medium;
+    text-shadow: 2px 2px 3px rgb(62, 65, 29);
+}
+h2{
+     text-shadow: 2px 2px 3px rgb(62, 65, 29);
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: yellow;
+}
+footer{
+    margin-bottom: 0;
+}
+/*table, th, td {
+  border: 2px solid aliceblue;
+  text-align: center;
+}*/
+
+
+/* BLOCO DO DROPDOWN MENU */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(35deg, black, purple, rgb(44, 34, 34));
+}
+li {
+    float: right;
+}
+li a, .dropdown-btn {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 18px 22px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropdown-btn {
+    background-color: #945b8e;
+    margin-top: 4px;
+    
+   
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-menu { /*desaparece os submenus*/
+    display: none;
+    position: absolute;
+    background-color: #945b8e;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+
+}
+.dropdown-menu a {
+    color: aliceblue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-menu a:hover {
+    background-color: #6c7994;
+    color: aliceblue;
+
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+
+/*CLASSES*/
+
+.item{
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+}
+
+/*IDS*/
+#susi{
+    width: 300px;
+}
+#terapias{
+    display: grid;
+    background: linear-gradient(35deg, black, purple, rgb(44, 34, 34));
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+    justify-content: space-around;
+    padding: 20px;
+}
+#terapias a{
+    text-decoration: none;
+}
+#terapias a:visited{
+    color: yellow;
+}
+#contato{
+    height: 90px;
+    width: 110px;
+    background: linear-gradient(35deg, purple, rgb(65, 15, 65), white);
+    border-radius: 10px;
+    border-style: double;
+    border-width: 5px;
+    border-color: rgb(221, 224, 215);
+    margin: auto;
+}
+
+/* background: linear-gradient(35deg, black, purple, rgb(44, 34, 34));*/
+
